@@ -15,6 +15,8 @@ class Student
       FROM students
       SQL
     
+    
+    self.new_from_db(row)
     # retrieve all the rows from the "Students" database
     # remember each row should be a new instance of the Student class
   end
